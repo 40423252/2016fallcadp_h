@@ -1,5 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-09-02T12:00:00+08:00</updated><entry><title>2016Fall 簡報與網誌系統</title><link href="./2016fall-jian-bao-yu-wang-zhi-xi-tong.html" rel="alternate"></link><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-jian-bao-yu-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;這個系統共集結了 reveal.js 網際簡報與 pelican 靜態網誌系統.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-11-29T12:00:00+08:00</updated><entry><title>Week 13</title><link href="./week-13.html" rel="alternate"></link><updated>2016-11-29T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-11-29:./week-13.html</id><summary type="html">&lt;p&gt;期中後 第11周開始 cadpa11周 2016Fall Solvespace 教學 &lt;p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 10</title><link href="./week-10.html" rel="alternate"></link><updated>2016-11-12T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-11-12:./week-10.html</id><summary type="html">&lt;p&gt;零件連桿&lt;p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 11</title><link href="./week-11.html" rel="alternate"></link><updated>2016-11-12T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-11-12:./week-11.html</id><summary type="html">&lt;p&gt;校慶放假&lt;p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 12</title><link href="./week-12.html" rel="alternate"></link><updated>2016-11-12T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-11-12:./week-12.html</id><summary type="html">&lt;p&gt;零件連桿&lt;p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 9</title><link href="./week-9.html" rel="alternate"></link><updated>2016-11-11T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-11-11:./week-9.html</id><summary type="html">&lt;p&gt;期中各班各組課程資料直接檢視&lt;p&gt;
+&lt;p&gt;&lt;a href="http://mde.tw/2016fallcadp/blog/2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html"&gt;檢查自己的連結是否正確&lt;/a&gt;&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 8</title><link href="./week-8.html" rel="alternate"></link><updated>2016-11-04T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-11-04:./week-8.html</id><summary type="html">&lt;p&gt;&lt;p&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;期中課程評量系統&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;Onshape 課程資料: https://service.mde.tw:8443/downloads/onshape/OnshapeCollegeCurriculum.7z (只要在區域網路可以下載)&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 7</title><link href="./week-7.html" rel="alternate"></link><updated>2016-10-28T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-10-28:./week-7.html</id><summary type="html">&lt;p&gt;使用Trace Point計算路徑&lt;p&gt;
+
+影片
+
+
+&lt;p&gt;路徑圖&lt;/p&gt;
+&lt;a&gt;&lt;img src="../photo/Trace Point.PNG" /&gt;&lt;/a&gt;
+
+&lt;h2&gt;解決子模組設定的問題&lt;/h2&gt;
+&lt;p&gt;把以下多餘的子模組刪掉&lt;/p&gt;
+&lt;pre&gt;
+[submodule "2016fallcadp_hw"]
+    path = 2016fallcadp_hw
+    url = https://github.com/40423226/2016fallcadp_hw.git
+    branch = gh-pages
+&lt;/pre&gt;
+&lt;p&gt;更改後為以下的內容&lt;/p&gt;
+&lt;pre&gt;
+[submodule "40423206"]
+    path = 40423206
+    url = https://github.com/40423206/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "40423224"]
+    path = 40423224
+    url = https://github.com/40423224/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "40423226"]
+    path = 40423226
+    url = https://github.com/40423226/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "40423229"]
+    path = 40423229
+    url = https://github.com/40423229/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "40423214"]
+    path = 40423214
+    url = https://github.com/40423214/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "40423216"]
+    path = 40423216
+    url = https://github.com/40423216/2016fallcadp_hw.git
+    branch = gh-pages
+&lt;/pre&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 6</title><link href="./week-6.html" rel="alternate"></link><updated>2016-10-21T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-10-21:./week-6.html</id><summary type="html">&lt;h3&gt;方法&lt;/h3&gt;
+
+&lt;p&gt;從SciTE打開,在2016fallcadp_bg6資料夾內的.gitmodules檔案,把該組員的子模組設定刪除後就可以存檔&lt;/p&gt;
+
+&lt;pre&gt;
+[submodule "40423206"]
+    path = 40423206
+    url = https://github.com/40423206/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "40423224"]
+    path = 40423224
+    url = https://github.com/40423224/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "2016fallcadp_hw"]
+    path = 2016fallcadp_hw
+    url = https://github.com/40423226/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "40423229"]
+    path = 40423229
+    url = https://github.com/40423229/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "40423214"]
+    path = 40423214
+    url = https://github.com/40423214/2016fallcadp_hw.git
+    branch = gh-pages
+[submodule "40423216"]
+    path = 40423216
+    url = https://github.com/40423216/2016fallcadp_hw.git
+    branch = gh-pages
+&lt;/pre&gt;
+
+&lt;p&gt;如果有打下面的指令,把各組員子模組的資料抓近來,記得要把2016fallcadp_bg6\.git\modules裡該組員的隱藏資料夾刪掉&lt;/p&gt;
+
+&lt;pre&gt;
+git submodule update --init --recursive
+&lt;/pre&gt;
+
+&lt;p&gt;就可以重新執行指令,把組員的子模組加進來&lt;/p&gt;
+
+&lt;pre&gt;
+git submodule add -b gh-pages https://github.com/40423226/2016fallcadp_hw.git 40423226
+&lt;/pre&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 5</title><link href="./week-5.html" rel="alternate"></link><updated>2016-10-08T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-10-08:./week-5.html</id><summary type="html">&lt;p&gt;認識SolveSpace&lt;p&gt;
+
+補影片</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 4</title><link href="./week-4.html" rel="alternate"></link><updated>2016-10-07T12:00:00+08:00</updated><author><name>52</name></author><id>tag:,2016-10-07:./week-4.html</id><summary type="html">&lt;p&gt;1: 設定使用者資料&lt;/p&gt;
+&lt;p&gt;2: 用2016fallcadp_bg6的名稱,建立小組倉儲&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 3</title><link href="./week-3.html" rel="alternate"></link><updated>2016-09-30T12:00:00+08:00</updated><author><name>ME</name></author><id>tag:,2016-09-30:./week-3.html</id><summary type="html">&lt;p&gt;1:複製網誌和簡報的設定檔2016fallcadp_hw的倉儲&lt;/p&gt;
+&lt;p&gt;2:更改2016fallcadp_hw的README.md檔案&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 2</title><link href="./week-2.html" rel="alternate"></link><updated>2016-09-23T12:00:00+08:00</updated><author><name>40423252</name></author><id>tag:,2016-09-23:./week-2.html</id><summary type="html">&lt;p&gt;1: 建立"學號.github.io"名稱的倉儲&lt;/p&gt;
+&lt;p&gt;2: 把分支的預設值改為gh-pages&lt;/p&gt;
+&lt;p&gt;3: 建立"2016fallcpb_hw"作業倉儲&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>Week 1</title><link href="./week-1.html" rel="alternate"></link><updated>2016-09-16T12:00:00+08:00</updated><author><name>40423252</name></author><id>tag:,2016-09-16:./week-1.html</id><summary type="html">&lt;p&gt;切換分支&lt;/p&gt;
+
+&lt;pre&gt;cd &lt;u&gt;tmp&lt;/u&gt;&lt;/pre&gt;
+
+&lt;p&gt;回到上個分支&lt;/p&gt;
+
+&lt;pre&gt;cd ..&lt;/pre&gt;
+
+&lt;pre&gt;git clone &lt;u&gt;個人倉儲網址&lt;/u&gt;&lt;/pre&gt;
+
+&lt;p&gt;檢查分支&lt;/p&gt;
+
+&lt;pre&gt;git branch&lt;/pre&gt;
+
+&lt;pre&gt;git add -A&lt;/pre&gt;
+
+&lt;pre&gt;git commit -m"&lt;u&gt;改版內容&lt;/u&gt;"&lt;/pre&gt;
+
+&lt;p&gt;推送進端資料到遠端&lt;/p&gt;
+
+&lt;pre&gt;git push origin &lt;u&gt;分支名稱&lt;/u&gt;&lt;/pre&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>2016Fall 簡報與網誌系統</title><link href="./2016fall-jian-bao-yu-wang-zhi-xi-tong.html" rel="alternate"></link><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-jian-bao-yu-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;這個系統共集結了 reveal.js 網際簡報與 pelican 靜態網誌系統.&lt;/p&gt;
 
 
 &lt;p&gt;網誌 Category&lt;/p&gt;
